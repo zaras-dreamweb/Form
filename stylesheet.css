@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+#main {
+    background-color: rgb(205, 207, 207);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+form {
+    margin: auto;
+    width: 90%;
+    height: 50%;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#interview-form {
+    background-color: #ffffff;
+}
+
+fieldset{
+    border: 1px solid rgb(123, 124, 120);
+    margin: 20px;
+    padding: 20px;
+}
+
+legend{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+div + div {
+    margin-top: 2em;
+}
+
+
+textarea {
+    border: 3px solid black;
+}
+
+button {
+    margin: 1em;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #474343;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+#submitbutton {
+    display: flex;
+    justify-content: center;
+}
+
+#name {
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#address {
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#email{
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#contact {
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#dropdown {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
