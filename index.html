@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Job Application</title>
+</head>
+<body>
+    <div id="main">
+        <form id="interview-form" action="/action_page.php">
+            <h1>Applicants Application</h1>
+
+        
+                <fieldset>
+
+                    <legend>Personal Details</legend>
+
+                    <div>
+                    <label for="name-label">Name:</label>
+                    <input type="name" id="name" name="name-label" placeholder="Enter name here"><br>
+                    <label for="address-label">Address:</label>
+                    <input type="address" id="address" name="address-label" placeholder="Enter address here"><br>
+                    <label for="email-label">Email:</label>
+                    <input type="email" id="email" name="email-label" placeholder="Enter email here"><br>
+                    <label for="contact-label">Contact Number:</label>
+                    <input type="contact" id="contact" name="contact-label" placeholder="Enter contact here"><br>
+
+                    </div>
+               
+
+                <div>
+                    <label for="gender">Gender</label> <br>
+
+                    <input type="radio" name="gender" value="male"> Male <br>
+                    <input type="radio" name="gender" value="female"> Female <br>
+                    <input type="radio" name="gender" value="others"> Others <br>
+                </div>
+
+               
+                </fieldset>
+
+
+                 <fieldset id="color">
+
+                    <lable for="job">What is your current job status?</lable>
+                    <p>
+                        <input type="checkbox" name="year" value="year"> Unemployed for an year.<br>
+                        <input type="checkbox" name="month" value="month"> Unemployed for 6 months. <br>
+                        <input type="checkbox" name="month or less" value="month or less"> Unemployed for a month or less. <br>
+                    </p>
+                    
+                </fieldset>
+
+                <fieldset>
+                    <label>Specialized field</label>
+                    <select id="dropdown">
+                        <option value="management">Management</option>
+                        <option value="reception">Reception</option>
+                        <option value="sales">Sales</option>
+                        <option value="representative">Call Representative</option>
+                    </select>
+
+                    <label> Educational Background</label>
+                    <select id="dropdown">
+                        <option value="primary">Primary School</option>
+                        <option value="high">High School</option>
+                        <option value="associates">Associates</option>
+                        <option value="bachelors">Bachelors</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                     <legend>Why do you want to work with us?</legend>
+
+                     <p>In 50 words complete the section below</p>
+                     
+                     <textarea  id="message" name="user_message" rows="4" cols="50" placeholder= "Enter Text Here"> </textarea>
+                     
+                     <div>
+                         <p>Your contact and residence informations</p>
+                     <p>In 50 words complete the section below</p>
+                     
+                     <textarea id="message" name="user_message" rows="4" cols="50" placeholder= "Enter Text Here"> </textarea>
+                     </div>
+
+
+
+                </fieldset>
+
+                <div id="submitbutton">
+                    <button type="submit" id="submit">Submit the Application</button>
+                </div>
+
+                
+           
+        </form>
+    </div>
+</body>
+</html>
